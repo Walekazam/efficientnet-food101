@@ -1,0 +1,19 @@
+EfficientNet-B4 Food-101 Results
+================================
+Top-1 Accuracy:  85.06%
+Top-5 Accuracy:  95.98%
+Test Loss:       0.7736
+
+Paper Comparison (Table 5):
+  Inception-v4 (paper):       90.8%
+  EfficientNet-B4 (paper):    91.5%
+  EfficientNet-B4 (ours):     85.06%
+
+Training Config:
+  Image size:    380x380
+  Batch size:    32
+  Stage 1:       5 epochs @ LR=0.001
+  Stage 2:       25 epochs @ LR=0.0001
+  Dropout:       0.4
+  Weight decay:  1e-05
+  Mixed prec.:   float16
