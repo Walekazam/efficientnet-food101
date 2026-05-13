@@ -1,1 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (too large for GitHub)
+*.keras
+*.h5
+*.pt
+*.pth
+
+# Dataset files
+*.tar.gz
+*.zip
+
+# System files
+.DS_Store
+Thumbs.db
